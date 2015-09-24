@@ -1,0 +1,27 @@
+libsoxr (0.1.2-1) unstable; urgency=medium
+
+  [ Benjamin Drung ]
+  * New upstream release.
+  * Drop example_linking.patch (applied upstream)
+  * Bump Standards-Version to 3.9.6 (no changes needed)
+  * Drop XS- prefix for Testsuite field
+  * Correct short license of src/pffft.* to Spherepack
+  * Fix dep5-copyright-license-name-not-unique
+
+  [ Alessio Treglia ]
+  * Add myself as Uploader.
+
+ -- Benjamin Drung <bdrung@debian.org>  Thu, 24 Sep 2015 20:44:17 +0200
+
+libsoxr (0.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Link examples with -lm. Thanks to Martin Pitt for the patch.
+
+ -- Benjamin Drung <bdrung@debian.org>  Fri, 05 Apr 2013 13:06:38 +0200
+
+libsoxr (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #697614).
+
+ -- Benjamin Drung <bdrung@debian.org>  Sat, 19 Jan 2013 13:59:15 +0100
